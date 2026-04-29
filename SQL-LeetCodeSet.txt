@@ -1,0 +1,7 @@
+--------------------------------------------------------------------------
+175. Combine Two Tables
+
+select p.firstName, p.lastName, s.city, s.state
+from person p
+left join address s on p.personId = s.personId
+--------------------------------------------------------------------------
